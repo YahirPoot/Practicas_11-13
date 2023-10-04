@@ -1,0 +1,31 @@
+
+table {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    border: 1 solid black;
+}
+
+#matrizTable {
+    padding: 5px;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+.resultados {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.resultados th {
+    padding: 5px;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+.resultados td {
+    padding: 5px;
+    border: 1px solid #000;
+    text-align: center;
+}

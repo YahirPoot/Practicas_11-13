@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#calificacionesTable {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-color: #fae8e8;
+}
+
+#calificacionesTable th,
+#calificacionesTable td {
+    border: 1px solid #686767;
+    padding: 3px;
+    text-align: center;
+}
+
+#calificacionesTable th {
+    background-color: #d9f286;
+}
+
+#respuestaBtn {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+#respuestaBtn:hover {
+    background-color: blue;
+    color: bisque;
+}
+
+#imformation {
+    font-size:  18px;
+    margin-bottom: 10px;
+}
+
+#promediosAlumnos {
+    width: 200px;
+    border: 1px solid #686767;
+    padding: 3px;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 16px;
+}
+
+#parcialesReprobados {
+    font-weight: bold;
+    color: red;
+}
+
+#rangoCalificaciones {
+    font-weight: bold;
+}
